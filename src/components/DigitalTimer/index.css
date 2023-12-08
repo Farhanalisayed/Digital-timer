@@ -1,0 +1,128 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+@media (max-width: 767px) {
+  .timer-cont {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 767px) {
+  .timer-cont {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.the-container {
+  background-image: linear-gradient(to right, #defafe, #00d9f5);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-container-elem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.timer {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  color: #00d9f5;
+  font-size: 25px;
+}
+.status {
+  color: #0f172a;
+  font-size: 18px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15%;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  background-color: transparent;
+  border: 0px solid;
+}
+.image {
+  height: 22px;
+  width: 22px;
+}
+.tag {
+  color: #0f172a;
+  font-size: 20px;
+}
+.time-setter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.note {
+  color: #0f172a;
+  font-size: 14px;
+}
+.decreaser {
+  font-size: 25px;
+  background-color: transparent;
+  border: 0px solid;
+  height: 28px;
+  width: 28px;
+}
+.increaser {
+  font-size: 25px;
+  background-color: transparent;
+  border: 0px solid;
+  height: 28px;
+  width: 28px;
+}
+.set-time {
+  border-radius: 8px;
+  border: 0px solid;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  color: #0f172a;
+  font-size: 20px;
+  padding: 15px;
+  width: 50px;
+  height: 35px;
+}
